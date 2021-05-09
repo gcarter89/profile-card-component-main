@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-pattern-bottom.svg) bottom -620px right -240px no-repeat, url(./images/bg-pattern-top.svg) top -520px left -300px no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+
+@media only screen and (max-width: 737px) {
+    body {
+        padding: 5%;
+        background: url(./images/bg-pattern-bottom.svg) bottom -640px right -740px no-repeat, url(./images/bg-pattern-top.svg) top -560px left -760px no-repeat;
+        background-color: hsl(185, 75%, 39%);
+    }
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+}
+
+.card {
+    border-radius: 12px;
+    background-color: white;
+}
+
+.card-header {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -3.1em;
+}
+
+.bio {
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.bio > p {
+    font-size: 0.8em;
+    margin-top: 3%;
+}
+
+.bio > h3 {
+    margin-bottom: 0;
+}
+
+.age {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.stats {
+    border-top: 1px solid hsla(0, 0%, 59%, 0.3);    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3% 4%;
+}
+
+.stats > div > p {
+    letter-spacing: 1px;
+    font-size: 0.6em;
+    margin-top: 0.7em;
+}
+
+.stats > div > h3 {
+    margin-bottom: 0;
+}
+
+.stat-item {
+    width: 67px;
+}
+
